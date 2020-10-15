@@ -38,5 +38,24 @@ li {
     margin-top: 0px;
 }
 
+.non-active{
+    text-decoration: none;
+    color: black;
+}
+
 a {
     margin-left: 0px;}
+
+    
+h1{
+    margin-inline-start: 100px;
+    color: #848887;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 1px 0 1px rgb(250, 248, 248), 
+0 1px 1px rgb(250, 249, 249), 
+-1px 0 1px rgb(121, 118, 118), 
+0 -1px 1px rgb(92, 90, 90);
+
+}
