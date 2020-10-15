@@ -1,8 +1,8 @@
-.zagolovok{
+.headline{
     background-color: darkblue;
     color: skyblue;
     display: block;
-    font-size: 30px;
+    font-size: 20px;
     margin: 0;
     padding: 0;
 
@@ -10,40 +10,33 @@
 body{
     margin: 0;
     padding: 0;
-
 }
-.gl{
-    padding-left: 80px;
-    }
+
 .st{
     color: black;
     font-weight: bold;
     background-color: white;
 }
+
 li {
     display: inline-block;
     list-style-type: none; /* Убираем маркеры */
     padding: 10px;
+    margin-left: 30px;
    }
    
-   .gl:hover {
-       color: khaki;
+   li:first-child{
+       margin-inline-start: 100px;
    }
+
    .st:hover {
     color: khaki;
-}
-.fo:hover {
-    color: khaki;
-}
-.kon:hover {
-    color: khaki;
-}
-.q{
-    text-decoration: none;
-    color: black;
+       }
 
+.link{
+    padding-left: 0px;
+    margin-top: 0px;
 }
 
-.sylki{
-    padding: 0px;
-}
+a {
+    margin-left: 0px;}
