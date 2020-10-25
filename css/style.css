@@ -1,18 +1,18 @@
-.headline{
+.headline {
     background-color: darkblue;
     color: skyblue;
     display: block;
     font-size: 20px;
     margin: 0;
     padding: 0;
+}
 
-    }
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
-.st{
+.st {
     color: black;
     font-weight: bold;
     background-color: white;
@@ -20,59 +20,108 @@ body{
 
 li {
     display: inline-block;
-    list-style-type: none; /* Убираем маркеры */
+    list-style-type: none;
+    /* Убираем маркеры */
     padding: 10px;
     margin-left: 30px;
-   }
-   
-   li:first-child{
-       margin-inline-start: 100px;
-   }
+}
 
-   .st:hover {
+li:first-child {
+    margin-inline-start: 100px;
+}
+
+.st:hover {
     color: khaki;
-       }
+}
 
-.link{
+.link {
     padding-left: 0px;
     margin-top: 0px;
 }
 
-.non-active{
+.non-active {
     text-decoration: none;
     color: black;
 }
 
 a {
-    margin-left: 0px;}
+    margin-left: 0px;
+}
 
-    
-h1{
+h1 {
     margin-inline-start: 100px;
     color: #848887;
     font-size: 26px;
     font-weight: bold;
     font-family: 'Josefin Sans', sans-serif;
-    text-shadow: 1px 0 1px rgb(250, 248, 248), 
-0 1px 1px rgb(250, 249, 249), 
--1px 0 1px rgb(121, 118, 118), 
-0 -1px 1px rgb(92, 90, 90);
+    text-shadow: 1px 0 1px rgb(250, 248, 248), 0 1px 1px rgb(250, 249, 249), -1px 0 1px rgb(121, 118, 118), 0 -1px 1px rgb(92, 90, 90);
 }
 
-.box-top{
+.box-top {
     margin-inline-start: 100px;
 }
 
-.first{
-    float:left; /* Выравнивание по левому краю */
-    margin: 7px 19px 0px 0; /* Отступы вокруг картинки */
+.first {
+    float: left;
+    /* Выравнивание по левому краю */
+    margin: 7px 19px 0px 0;
+    /* Отступы вокруг картинки */
     width: 446px;
-}
-.right{
-    font-size: large;
+    padding-left: 10px;
 }
 
-p{
-    margin-top: 0.5em; /* Отступ сверху */
+.right {
+    font-family: arial;
+    font-size: 16px;
+    margin-top: 14px;
+    /* Отступ сверху */
     margin-bottom: 7px;
+    font-weight: bold;
 }
+
+.middle{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 14px;
+    font-size: 16.8px;
+    font-family: arial;
+}
+
+h2{
+    padding-left: 10px;
+    font-family: arial;
+    margin-bottom: 0px;
+}
+
+.name{
+    border-left: none;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 0px;
+    font-weight: bold;
+}
+
+.presents{
+    border-right: none;
+}
+
+table {
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: arial;
+}  
+
+.admin{
+    text-decoration: none;
+    color: turquoise;
+    
+}
+.avtor{
+    font-style: italic;
+    font-family: arial;
+    text-align: right;
+    margin-right: 165px;
+    margin-top: 2px;
+}
+
