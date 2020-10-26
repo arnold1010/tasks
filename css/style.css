@@ -10,6 +10,8 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: arial;
+    
 }
 
 .st {
@@ -59,19 +61,22 @@ h1 {
 
 .box-top {
     margin-inline-start: 100px;
+    border:5px #dee2e2  ridge; 
+    width:1000px; 
+    height: 708px;
+    padding-left: 10px;
 }
 
-.first {
+.img {
     float: left;
     /* Выравнивание по левому краю */
     margin: 7px 19px 0px 0;
     /* Отступы вокруг картинки */
     width: 446px;
-    padding-left: 10px;
+    padding-left: ;
 }
 
 .right {
-    font-family: arial;
     font-size: 16px;
     margin-top: 14px;
     /* Отступ сверху */
@@ -79,21 +84,19 @@ h1 {
     font-weight: bold;
 }
 
-.middle{
-    padding-left: 10px;
+.middle {
+    padding-left: ;
     padding-right: 10px;
     margin-top: 14px;
     font-size: 16.8px;
-    font-family: arial;
 }
 
-h2{
-    padding-left: 10px;
-    font-family: arial;
-    margin-bottom: 0px;
+h2 {
+    padding-left: ;
+    margin-bottom: 3px;
 }
 
-.name{
+.name {
     border-left: none;
     text-align: right;
     vertical-align: top;
@@ -101,27 +104,77 @@ h2{
     font-weight: bold;
 }
 
-.presents{
+.presents {
     border-right: none;
 }
 
 table {
     border: none;
-    padding-left: 10px;
+    padding-left: ;
     padding-right: 10px;
     font-family: arial;
 }  
 
-.admin{
+.admin {
     text-decoration: none;
     color: turquoise;
     
 }
-.avtor{
+.avtor {
     font-style: italic;
-    font-family: arial;
     text-align: right;
-    margin-right: 165px;
+    margin-right: 187px;
     margin-top: 2px;
 }
 
+.comment7 {
+    margin-left: 100px;
+    color: rgb(201, 192, 192);
+    margin-bottom: 0px;
+}
+.line-comment-top {
+    margin-left: 100px;
+    margin-right: 190px;
+    margin-top: 0px;
+}
+
+.comments {
+    margin-left: 100px;
+
+}
+
+.grisha {
+    margin-left: 257px;
+    color: rgb(240, 15, 45);
+}
+
+.vert-line-big {
+    border-left:3px solid rgb(153, 156, 158);
+    padding-left:35px;
+}
+
+.vladimir {
+    margin-left: 260px;
+    color: rgb(240, 15, 45);
+}
+
+.vert-line-small {
+    border-left:1px solid rgb(153, 156, 158);
+    padding-left:35px;
+}
+
+.tanya {
+    margin-left: 245px;
+    color: rgb(240, 15, 45);
+}
+
+.kuznec {
+    margin-left: 270px;
+    color: rgb(240, 15, 45);
+}
+
+.line-comment-bottom {
+    margin-left: 100px;
+    margin-right: 190px;
+    margin-top: 20px;
+}
