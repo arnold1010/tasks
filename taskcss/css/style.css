@@ -189,3 +189,59 @@ h3 {
     margin-left: 100px;
 
 }
+
+.form {
+    margin-left: 100px;
+}
+.nameform {
+    margin-left: 34px;
+}
+
+.text {
+    margin-left: 25px;
+    
+
+}
+.text input{
+    width: 280px;
+    height: 70px;
+}
+
+label {
+    font-weight: bold  ;
+    margin-right: 10px;
+}
+
+input {
+    margin-bottom: 18px;
+}
+
+.sex {
+    margin-left: 80px;
+}
+
+.nameform input{
+    width: 275px;
+}
+
+.ageform input{
+    width: 60px;
+}
+
+.star{
+    color: red;
+    display: inline;
+}
+.agreement {
+    margin-left: 100px;
+}
+.agree {
+    margin-bottom: 0px;
+}
+.send {
+    margin-left: 400px;
+}
+.button-send {
+    height: 30px;
+    width: 105px;
+}
