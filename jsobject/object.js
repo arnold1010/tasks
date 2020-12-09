@@ -1,8 +1,5 @@
-let user = {}
-let user = {
-    name: 'John',
-    surname: 'Smith',
-};
-user.name = 'Pete' ; 
+let user = {};
+user.name = 'John';
+user.surname = 'Smith';
+user.name = 'Igor'; 
 delete user.name ;
-
