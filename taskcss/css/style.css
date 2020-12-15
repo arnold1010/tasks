@@ -1,17 +1,17 @@
 .headline {
     background-color: darkblue;
-    color: skyblue;
-    display: block;
+    color: white;
     font-size: 20px;
     margin: 0;
     padding: 0;
+    float: left;
+    width: 100%;
 }
 
 body {
     margin: 0;
     padding: 0;
     font-family: arial;
-    
 }
 
 .active {
@@ -21,19 +21,14 @@ body {
 }
 
 li {
-    display: inline-block;
-    list-style-type: none;
-    /* Убираем маркеры */
+    float: left;
+    list-style-type: none; /* Убираем маркеры */
     padding: 10px;
-    margin-left: 30px;
+    margin-left: 0px;
 }
 
 li:first-child {
     margin-inline-start: 100px;
-}
-
-.active :hover {
-    color: khaki;
 }
 
 .headline li:hover {
@@ -46,6 +41,11 @@ color: black;
     margin-top: 0px;
 }
 
+ul.link li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+  }
 
 .non-active {
     text-decoration: none;
@@ -62,7 +62,7 @@ h1 {
     font-size: 26px;
     font-weight: bold;
     font-family: 'Josefin Sans', sans-serif;
-   
+    clear: both;
 }
 
 .box-top {
@@ -79,7 +79,7 @@ h1 {
     margin: 7px 19px 0px 0;
     /* Отступы вокруг картинки */
     width: 446px;
-    padding-left: ;
+    
 }
 
 .right {
