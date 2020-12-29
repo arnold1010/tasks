@@ -18,26 +18,25 @@ body {
     background-color: white;  
 }
 
-
-  .headline li {
+.headline li {
     float: left;
     list-style-type: none; /* Убираем маркеры */
     padding: 0px;
     margin-left: 0px;
 }
 
- ul::after {
+ul::after {
     content: "";
     display: block;
     clear: both;
 }
 
 li:first-child {
-    margin-inline-start: 100px;
+    margin-left: 100px;
 }
 
 .headline a:hover {
-    background-color: ivory;
+    background-color:white;
     color : black;
 }
 
@@ -50,7 +49,7 @@ li:first-child {
 }
 
 .link li:first-child {
-    margin-inline-start: 65px;
+    margin-left: 65px;
 }
 
 .link li{
@@ -81,7 +80,6 @@ h1 {
     color: #848887;
     font-size: 26px;
     font-weight: bold;
-    font-family: 'Josefin Sans', sans-serif;
 }
 
 .box-top {
@@ -98,7 +96,6 @@ h1 {
     margin: 7px 19px 0px 0;
     /* Отступы вокруг картинки */
     width: 446px;
-    
 }
 
 .right {
@@ -217,9 +214,8 @@ h3 {
 
 .text {
     margin-left: 25px;
-    
-
 }
+
 .text input {
     width: 280px;
     height: 70px;
