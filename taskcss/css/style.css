@@ -60,7 +60,7 @@ li:first-child {
     margin-top: 0px;
 }
 
-ul.link li+li:before {
+.link li+li:before {
     padding: 8px;
     color: black;
     content: ">\00a0";
@@ -76,14 +76,14 @@ a {
 }
 
 h1 {
-    margin-inline-start: 100px;
+    margin-left: 100px;
     color: #848887;
     font-size: 26px;
     font-weight: bold;
 }
 
 .box-top {
-    margin-inline-start: 100px;
+    margin-left: 100px;
     border:5px #dee2e2  ridge; 
     width:1000px; 
     height: 708px;
