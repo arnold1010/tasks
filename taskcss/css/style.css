@@ -1,51 +1,70 @@
 .headline {
     background-color: darkblue;
-    color: skyblue;
-    display: block;
     font-size: 20px;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 body {
     margin: 0;
     padding: 0;
     font-family: arial;
-    
 }
 
-.active {
+.headline .active  {
     color: black;
     font-weight: bold;
-    background-color: white;
+    background-color: white;  
 }
 
-li {
-    display: inline-block;
-    list-style-type: none;
-    /* Убираем маркеры */
-    padding: 10px;
-    margin-left: 30px;
+.headline li {
+    float: left;
+    list-style-type: none; /* Убираем маркеры */
+    padding: 0px;
+    margin-left: 0px;
+}
+
+ul::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 li:first-child {
-    margin-inline-start: 100px;
+    margin-left: 100px;
 }
 
-.active :hover {
-    color: khaki;
+.headline a:hover {
+    background-color:white;
+    color : black;
 }
 
-.headline li:hover {
-background-color: ivory;
-color: black;
+.headline a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    padding: 10px;
 }
 
-.link {
-    padding-left: 0px;
+.link li:first-child {
+    margin-left: 65px;
+}
+
+.link li{
+    float: left;
+    list-style-type: none; /* Убираем маркеры */
+    padding: 0px;
+    margin-left: 0px;
     margin-top: 0px;
 }
 
+.link li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+  }
 
 .non-active {
     text-decoration: none;
@@ -57,16 +76,14 @@ a {
 }
 
 h1 {
-    margin-inline-start: 100px;
+    margin-left: 100px;
     color: #848887;
     font-size: 26px;
     font-weight: bold;
-    font-family: 'Josefin Sans', sans-serif;
-   
 }
 
 .box-top {
-    margin-inline-start: 100px;
+    margin-left: 100px;
     border:5px #dee2e2  ridge; 
     width:1000px; 
     height: 708px;
@@ -79,7 +96,6 @@ h1 {
     margin: 7px 19px 0px 0;
     /* Отступы вокруг картинки */
     width: 446px;
-    padding-left: ;
 }
 
 .right {
@@ -187,5 +203,59 @@ table {
 
 h3 {
     margin-left: 100px;
+}
 
+.form {
+    margin-left: 100px;
+}
+.nameform {
+    margin-left: 34px;
+}
+
+.text {
+    margin-left: 25px;
+}
+
+.text input {
+    width: 280px;
+    height: 70px;
+}
+
+label {
+    font-weight: bold  ;
+    margin-right: 10px;
+}
+
+input {
+    margin-bottom: 18px;
+}
+
+.sex {
+    margin-left: 80px;
+}
+
+.nameform input {
+    width: 275px;
+}
+
+.ageform input {
+    width: 60px;
+}
+
+.star {
+    color: red;
+    display: inline;
+}
+.agreement {
+    margin-left: 100px;
+}
+.agree {
+    margin-bottom: 0px;
+}
+.send {
+    margin-left: 400px;
+}
+.button-send {
+    height: 30px;
+    width: 105px;
 }

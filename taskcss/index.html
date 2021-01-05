@@ -8,12 +8,12 @@
 </head>
 
 <body>
-    <div class="line">
+    <div>
         <ul class="headline">
-            <li>Главная</li>
-            <li>Форум</li>
-            <li class="active">Статьи</li>
-            <li>Контакты</li>
+            <li><a href="#">Главная </a></li>
+            <li><a href="#">Форум</a></li>
+            <li><a class="active" href="#">Статьи</a></li>
+            <li><a href="#">Контакты</a></li>
         </ul>
     </div>
     <!--синяя линия -->
@@ -99,11 +99,36 @@
         <a class="grisha" href="#">Пожаловаться</a>
     </div>
     <hr class="line-comment-bottom">
-    <div class="forma">
-        <h3>Оставить свой комментарий</h3>
-
+    <h3>Оставить свой комментарий</h3>
+    <div class="form">
+        <div class="nameform">
+            <label >Имя:<p class="star">* </p>  </label> 
+                <input type="text" name="name">
+        </div>
+        <div class="ageform" >
+            <label class="age" >Возраст:  </label> 
+                <input type="text" name="userage" >  
+            <label class="sex" >Пол:</label>
+            <select name="sex">
+                <option value="none"> </option>
+                <option value="men">Мужской </option>
+                <option value="women">Женский </option>
+            </select>               
+        </div >
+        <div class="text">
+            <label class="textform"> Текст:<p class="star">*</p></label>  
+                <input type="text" name="comment" placeholder="Написать комментарий"> 
+        </div>
     </div>
-
+    <div class="agreement" >
+        <p> <input class="agree" type="checkbox" name="" value="agree"> Я согласен с <a href="#">условиями</a> размещения<br> комментариев </p>   
+    </div>
+    
+    <div class="send">
+        <form>
+        <button class = "button-send" type="submit">Отправить</button>
+        </form>
+    </div>
 
 
 
