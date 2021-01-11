@@ -45,10 +45,11 @@ var characters = [
     { name: 'Михаил', age: 36 },
     { name: 'Фёдор', age: 40 }
 ];
+let key='age';
 
-function pluck (characters, name) {
-    return characters.map(item => item.name);
+function pluck (characters, key) {
+    return characters.map(item => item[key]);
 }
 
-console.log(pluck(characters, 'name')); // ['Михаил', 'Фёдор']
+console.log(pluck(characters, key)); // ['Михаил', 'Фёдор']
 
